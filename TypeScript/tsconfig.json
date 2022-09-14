@@ -7,6 +7,9 @@
       "esModuleInterop": true,
       "moduleResolution": "node",
       "outDir": "dist",
-      "allowJs": true
+      "allowJs": true,
+    },
+    "ts-standard": {
+      "project": "path/to/tsconfig.json"
     }
   }

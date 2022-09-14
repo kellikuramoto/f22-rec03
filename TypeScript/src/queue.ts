@@ -1,4 +1,3 @@
-
 /**
  * Interface describing a first-in, first-out structure for integers. Values are
  * added at the tail, and removed from the head. Queues are typically used to
@@ -25,7 +24,7 @@ interface IntQueue {
   /**
      * Add the element to the tail of the queue.
      *
-     * @param value	The element to place at the tail of the queue.
+     * @param value The element to place at the tail of the queue.
      * @return      Whether the element was enqueued successfully.
      */
   enqueue: (value: number) => boolean
